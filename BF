@@ -1,33 +1,11 @@
-local _0x_g = game
-local _0x_lp = _0x_g.Players.LocalPlayer
-local _0x_hg = _0x_g.HttpGet
-
-local _0x_consts = {
-    "\115\50\82\115\80\109\75\97\119\102\65\119\50\111\49\80\49",
-    "\66\97\110\97\110\97\32\67\97\116\32\104\117\98",
-    "\32\80\114\101\109\105\117\109",
-    "https://i.ibb.co/Cp3t0j9B/1000002263.png",
-    "\111\98\105\105\121\101\117\101\109",
-    "\116\121\115\109\32\102\111\114\32\117\115\105\110\103\32\109\121\32\115\99\114\105\112\116\33",
-    "\87\114\111\110\103\32\107\101\121",
-    "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\104\111\97\110\110\104\97\116\122\47\83\99\114\105\112\116\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\69\90\83\99\114\105\112\116\46\108\117\97"
-}
-
-local _0x_fetch = function(i)
-    local str = _0x_consts[i] or ""
-    return str
+if getgenv().key \~= "s2RsPmKawfAw2o1P1" then
+    game.Players.LocalPlayer:Kick("Wrong key / Key sai")
+    return
 end
 
-local _ = math.random(1,1000)
-
-if key == _0x_fetch(1) then
-    getgenv().ScriptTitle          = _0x_fetch(2)
-    getgenv().ScriptSubTitle       = _0x_fetch(3)
-    getgenv().ScriptImage          = _0x_fetch(4)
-    getgenv().ScriptAuthorName     = _0x_fetch(5)
-    getgenv().ScriptAuthorSubTitle = _0x_fetch(6)
-    
-    loadstring(_0x_hg(_0x_g, _0x_fetch(8)))()
-else
-    _0x_lp:Kick(_0x_fetch(7))
-end
+getgenv().ScriptTitle          = "Banana Cat hub"
+getgenv().ScriptSubTitle       = " Premium"
+getgenv().ScriptImage          = "https://i.ibb.co/Cp3t0j9B/1000002263.png"
+getgenv().ScriptAuthorName     = "obiiyeuem"
+getgenv().ScriptAuthorSubTitle = "tysm for using my script!"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
