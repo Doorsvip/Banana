@@ -1,5 +1,5 @@
 local keyreal = "s2RsPmKawfAw2o1P1"
-if key == keyreal then
+if getgenv().key == keyreal then
 	getgenv().ScriptTitle = "Banana Cat hub"
 	getgenv().ScriptSubTitle = " Premium"
 	getgenv().ScriptImage = "https://i.ibb.co/Cp3t0j9B/1000002263.png"
