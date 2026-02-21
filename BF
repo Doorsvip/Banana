@@ -1,4 +1,3 @@
-local key
 local keyreal = "s2RsPmKawfAw2o1P1"
 if key == keyreal then
 	getgenv().ScriptTitle = "Banana Cat hub"
