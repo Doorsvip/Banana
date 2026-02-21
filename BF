@@ -1,11 +1,12 @@
-if getgenv().key \~= "s2RsPmKawfAw2o1P1" then
-    game.Players.LocalPlayer:Kick("Wrong key / Key sai")
-    return
+local key
+local keyreal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Doorsvip/Banana/refs/heads/main/key"))()
+if key == keyreal then
+	getgenv().ScriptTitle = "Banana Cat hub"
+	getgenv().ScriptSubTitle = " Premium"
+	getgenv().ScriptImage = "https://i.ibb.co/Cp3t0j9B/1000002263.png"
+	getgenv().ScriptAuthorName = "obiiyeuem"
+	getgenv().ScriptAuthorSubTitle = " "
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
+	else
+		print("failled")
 end
-
-getgenv().ScriptTitle          = "Banana Cat hub"
-getgenv().ScriptSubTitle       = " Premium"
-getgenv().ScriptImage          = "https://i.ibb.co/Cp3t0j9B/1000002263.png"
-getgenv().ScriptAuthorName     = "obiiyeuem"
-getgenv().ScriptAuthorSubTitle = "tysm for using my script!"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
