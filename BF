@@ -1,4 +1,3 @@
-local key
 local keyreal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Doorsvip/Banana/refs/heads/main/key"))()
 if key == keyreal then
 	getgenv().ScriptTitle = "Banana Cat hub"
