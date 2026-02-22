@@ -1,0 +1,9 @@
+if getgenv().key == "s2RsPmKawfAw2o1P1" then
+		if getgenv().version == "V1" then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doorsvip/Banana/refs/heads/main/BFR"))()
+		elseif getgenv().version == "V2" then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/dauphucan061-tech/mbingua/refs/heads/main/4968767887617217.lua"))()
+			else
+				game.Players.LocalPlayer:Kick("Wrong version")
+	end
+end
